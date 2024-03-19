@@ -6,4 +6,3 @@ A max-heap is a data structure that functions like a binary tree that satisfies 
 
 This means that the max value is accessible in constant time (O(1)) simply by looking at the root element of the node, implemented here in `heap_peek()`. This is useful in applications where items must be queued and accessed according to priority. Pushing to the heap (`heap_push()`) adds a new element to the heap and re-heapifys to preserve the heap property. Popping (`heap_pop()`) returns and removes the root element and also re-heapifys. Heapification takes O(lg(n)) time.
 
-It only stores integers for now. I may template it in the future.
